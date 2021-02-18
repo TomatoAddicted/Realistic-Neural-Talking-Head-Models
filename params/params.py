@@ -4,23 +4,23 @@
 K = 8
 
 #path to main weight
-path_to_chkpt = 'model_weights.tar' 
+path_to_chkpt = 'models/model_weights.tar'
 
 #path to backup
-path_to_backup = 'backup_model_weights.tar'
+path_to_backup = 'models/backup_model_weights.tar'
 
 #CHANGE first part
-path_to_Wi = ""+"Wi_weights"
+path_to_Wi = "weights/"+"Wi_weights"
 #path_to_Wi = "test/"+"Wi_weights"
 
 #CHANGE if better gpu
 batch_size = 2
 
 #dataset save path
-path_to_preprocess = '/mnt/ACA21355A21322FE/VoxCeleb/saves2'
+path_to_preprocess = '/home/data2/frommi/preprocessed_voxceleb' #'/mnt/ACA21355A21322FE/VoxCeleb/saves2'
 
 #default for Voxceleb
 frame_shape = 224
 
 #path to dataset
-path_to_mp4 = '/mnt/ACA21355A21322FE/VoxCeleb/vox2_mp4/dev/mp4'
+path_to_mp4 =  '/data'    #'/mnt/ACA21355A21322FE/VoxCeleb/vox2_mp4/dev/mp4'
