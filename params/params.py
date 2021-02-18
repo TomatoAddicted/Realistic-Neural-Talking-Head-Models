@@ -23,4 +23,4 @@ path_to_preprocess = '/home/data2/frommi/preprocessed_voxceleb' #'/mnt/ACA21355A
 frame_shape = 224
 
 #path to dataset
-path_to_mp4 =  '/data'    #'/mnt/ACA21355A21322FE/VoxCeleb/vox2_mp4/dev/mp4'
+path_to_mp4 = '/home/data2/frommi/voxceleb' # '/data'    #'/mnt/ACA21355A21322FE/VoxCeleb/vox2_mp4/dev/mp4'
