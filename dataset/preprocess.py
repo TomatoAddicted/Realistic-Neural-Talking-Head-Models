@@ -105,6 +105,7 @@ def pick_images(video_path, pic_folder, num_images):
 
 for person_id in tqdm(os.listdir(path_to_mp4)):
     for video_id in tqdm(os.listdir(os.path.join(path_to_mp4, person_id))):
+        print(os.listdir(os.path.join(path_to_mp4, person_id, video_id)))
         for video in os.listdir(os.path.join(path_to_mp4, person_id, video_id)):
             
                 
